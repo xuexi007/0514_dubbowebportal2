@@ -38,7 +38,7 @@ public class ProductController {
         for(Product product:list){
             ProductVo vo = new ProductVo();
             vo.setId(product.getId()+"");
-            vo.setName(product.getName());
+            vo.setName(product.getName()+"--更新");
             vo.setDescs(product.getDescs());
             vo.setStock(product.getStock());
             vo.setSales(product.getSales());

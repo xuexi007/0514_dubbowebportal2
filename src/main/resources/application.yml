@@ -1,0 +1,18 @@
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: zookeeperserver:2181
+  application:
+    name: webportal
+  protocol:
+    name: dubbo
+  consumer:
+    check: false
+server:
+  port: 9001
+spring:
+  redis:
+    host: redisserver
+    port: 6379
+    password: offcn123
+    database: 0
